@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const baseUrl = "http://localhost:5000/";;
+export const baseUrl = "https://ulback.herokuapp.com/";
 export const sortByPrice = async () => {
   const res = await axios.get(baseUrl);
   return res.data.data.sort((a, b) => a.price.value - b.price.value);
