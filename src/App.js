@@ -8,7 +8,6 @@ import {
   handleChangeType,
 } from "./utils";
 import Button from "./Button";
-import { baseUrl } from "./utils";
 class App extends React.Component {
   //state = { products: [] };
 
