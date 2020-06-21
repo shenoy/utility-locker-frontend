@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 234, 234);
+}
+
+.item {
+  color: rgb(1, 1, 20);
+  border-radius: 10px;
+  border-color: rgb(248, 245, 238);
+  text-align: left;
+  align-items: center;
+  background-color: white;
+  border-style: outset;
+  padding-left: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.property {
+  color: rgb(32, 70, 238);
+  font-size: 1.5rem;
+}
+
+.sort,
+.group {
+  color: rgb(33, 102, 12);
+  font-size: 1.5rem;
+  border-color: rgb(248, 245, 238);
+  text-align: left;
+  align-items: center;
+  background-color: white;
+  border-style: outset;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: rgb(234, 250, 146);
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button1 {
+  background-color: rgb(195, 233, 152);
+  color: black;
+  border: 2px solid #141b14;
+}
+
+.button1:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Open Sans Condensed", sans-serif;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(227, 248, 221);
+  color: rgb(58, 173, 58);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-style:outset;
+}
+
+.price {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.title .subtitle {
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Open Sans Condensed", sans-serif;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(178, 243, 158);
+  color: rgb(4, 41, 4);
+}

@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component Testing button should render correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Integration testing App code matches the snapshot 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <div
+      className="title"
+    >
+      <span>
+        Utility Locker
+      </span>
+      <div
+        className="subtitle"
+      >
+        Range of Mobile Products
+      </div>
+    </div>
+    <div
+      className="sort"
+    >
+      Sort by Price :
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Low to High"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="High to Low"
+      />
+    </div>
+    <div
+      className="group"
+    >
+      Filter by Department :
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Computing"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Cookware"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="DIY"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Books and Stationery"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Shoes"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Home"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Photography and Art"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Entertainment"
+      />
+    </div>
+    <div
+      className="group"
+    >
+      Filter by Type :
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Electrical"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Voucher"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Book"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Ceramics"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Running"
+      />
+      <input
+        className="button button1"
+        onClick={[Function]}
+        type="button"
+        value="Electronics"
+      />
+    </div>
+    <div>
+      <div
+        className="item"
+      >
+        <div
+          className="heading"
+        >
+          Samsung Galaxy Note 2
+        </div>
+        <div
+          className="flex"
+        >
+          <div
+            className="property"
+          >
+            Description:
+          </div>
+           
+          <div>
+            Samsung tablet computer
+          </div>
+        </div>
+        <div
+          className="flex"
+        >
+          <div
+            className="property"
+          >
+            Department:
+          </div>
+            
+          <div>
+            Computing
+          </div>
+        </div>
+        <div
+          className="flex"
+        >
+          <div
+            className="property"
+          >
+            ID:
+          </div>
+           
+          <div>
+            SGN-2
+          </div>
+        </div>
+        <div
+          className="flex"
+        >
+          <div
+            className="property"
+          >
+            Price:
+          </div>
+           
+          <div
+            className="price"
+          >
+            £
+            299.99
+          </div>
+        </div>
+        <div
+          className="flex"
+        >
+          <div
+            className="property"
+          >
+            Type:
+          </div>
+           
+          <div>
+            Electrical
+          </div>
+        </div>
+        <div
+          className="flex"
+        >
+          <div
+            className="property"
+          >
+            Weight:
+          </div>
+           
+          <div>
+            569g
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
