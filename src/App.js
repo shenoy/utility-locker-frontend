@@ -40,8 +40,10 @@ class App extends React.Component {
   }
 
   fetchProducts = async () => {
-    const res = await fetchProducts();
-    return res;
+    const res = await fetchProducts();    
+     this.setState({
+       products: [res],
+     });
   };
 
   handleChangeDepartment = async (props) => {
